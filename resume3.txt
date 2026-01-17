@@ -1,0 +1,4 @@
+Name: Carol Lee
+Skills: Python, NLP, Machine Learning
+Experience: 1 year in AI projects
+Education: B.Tech in CS

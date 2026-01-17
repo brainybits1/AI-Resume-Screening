@@ -1,0 +1,42 @@
+%%writefile resume_screening_app.py
+import streamlit as st
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.linear_model import LogisticRegression
+import numpy as np
+
+st.title("AI Resume Screening & Job Matching System")
+
+# Job description input
+job_desc = st.text_area("Enter Job Description:")
+
+# Upload resumes
+uploaded_files = st.file_uploader("Upload Resume(s) (.txt)", accept_multiple_files=True)
+
+if st.button("Match Resumes") and job_desc and uploaded_files:
+    resumes = []
+    filenames = []
+
+    for file in uploaded_files:
+        text = file.read().decode("utf-8")
+        resumes.append(text)
+        filenames.append(file.name)
+    
+    # TF-IDF Vectorization
+    docs = [job_desc] + resumes
+    vectorizer = TfidfVectorizer()
+    tfidf_matrix = vectorizer.fit_transform(docs)
+    similarity_scores = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix[1:]).flatten()
+    
+    st.subheader("Resume Match Scores")
+    for i, score in enumerate(similarity_scores):
+        st.write(f"**{filenames[i]}**: {score*100:.2f}% match")
+    
+    # Optional: AI Classifier for Shortlist
+    # Simple example with similarity threshold
+    threshold = 0.7  # You can adjust
+    predictions = (similarity_scores >= threshold).astype(int)
+    
+    st.subheader("Shortlist Recommendation")
+    for i, pred in enumerate(predictions):
+        st.write(f"**{filenames[i]}**: {'Shortlisted' if pred==1 else 'Not Shortlisted'}")

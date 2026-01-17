@@ -1,0 +1,60 @@
+KHUSHIYA SHAIKH
+Bachelor of Biomedical Engineering
+Vidyalankar Institute of Technology, Mumbai
+
++91-9321756975
+LinkedIn Profile
+www.linkedin.com/in/khushiya-shaikh-2801222a8
+
+OBJECTIVE
+Aspiring biomedical engineer with a strong foundation in artificial intelligence, machine learning, and
+biomedical systems. With hands-on hospital internship experience and a keen interest in medical image
+processing and smart healthcare technologies, I aim to contribute to impactful biomedical innovations through
+research and real-world applications.
+
+PERSONAL PROJECTS
+1. AI in HR (Feb 2025)
+• Built an AI-based system for automated resume screening and skill-based job matching
+• Used NLP to analyze unstructured data and reduce bias in recruitment
+• Generated personalized development plans for employee growth
+2. Smart Mask Detection System (April 2025)
+• Developed a MATLAB-based system to detect face masks using image processing and classification techniques
+
+CERTIFICATION
+- Microprocessors and Microcontrollers – IIT Bombay, June 2024
+- Artificial Intelligence for Beginners
+- Introduction to Databases and SQL Querying
+
+TECHNICAL SKILLS AND INTERESTS
+
+
+
+
+
+
+Programming Languages: Python
+Web & Databases: HTML (self-paced), SQL
+Tools & Platforms: MATLAB, Arduino, Google Collab, MS Excel
+Others: Image Processing (Basics), AI & ML concepts
+Currently Learning: HTML, Data Structures & Algorithms (self-paced through online platforms)
+
+EDUCATION
+•
+
+Bachelor of Technology in Biomedical Engineering
+
+2022-Current
+
+Vidyalankar Institute of Technology, Mumbai
+
+CGPA:8.29
+
+POSITIONS OF RESPONSIBILITY
+- Biomedical Intern, S. L. Raheja Hospital (Dec 2024)
+• Hands-on experience with ICU equipment like ECG machines and patient monitors
+• Assisted in maintenance and troubleshooting of biomedical devices
+• Observed the integration of technology in patient care alongside healthcare professionals
+- Core Member – Creatives, BMESI-VIT (2023–2024
+- Creatives Head, BMESI-VIT (2024–2025)
+
+

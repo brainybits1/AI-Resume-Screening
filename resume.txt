@@ -1,0 +1,4 @@
+Name: Bob Johnson
+Skills: Java, SQL, Web Development
+Experience: 3 years in software development
+Education: B.Tech in IT
